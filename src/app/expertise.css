@@ -1,0 +1,37 @@
+@media only screen and (max-width: 992px){
+
+  .container{
+    padding-top: 60px !important;
+    padding-bottom: 45px !important;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .col-md-10{
+    max-width: 100% !important;
+  }
+}
+
+.container{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+  display: table;
+  height: 100%;
+}
+
+.col-md-10{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bg{
+  height: 70vh;
+  background-image: url("../assets/LOGOTRY1 white.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  bottom: 30px;
+}

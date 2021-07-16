@@ -1,0 +1,10 @@
+body{
+  overflow-x: hidden;
+}
+
+navbar{
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+}

@@ -1,0 +1,31 @@
+.aboutBanner{
+  height: 75vh;
+  background-color: teal;
+  background-image: url("../assets/testAbout1.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  padding-bottom: 3em;
+}
+
+.aboutTitleContainer{
+  text-align: center;
+  letter-spacing: 8px;
+  padding-top: 5em;
+}
+
+.aboutInfo{
+  width: 50vw;
+  margin: auto;
+  opacity: 0.85;
+  padding-top: 3em;
+}
+
+@media only screen and (max-width: 768px){
+  .aboutInfo{
+    width: 100vw;
+  }
+}

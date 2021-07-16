@@ -1,0 +1,196 @@
+.data-container{
+  height: 60em;
+}
+
+.data-section1{
+  background-image: url("../assets/color lines1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 8em;
+  padding-top: 10em;
+  bottom: 15em;
+}
+
+.row{
+  margin: 0px 3em 0px 3em;
+}
+
+._text{
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.cdsLine{
+  width: 40%;
+  margin: 0;
+  border-top: 5px solid grey;
+  margin-bottom: 1em;
+}
+
+.cdsSection1{
+  margin-bottom: 1.5em;
+}
+
+.titleContainer{
+  /*display: table;*/
+  height: 100%;
+}
+
+.titleContainer h1{
+  /*display: table-cell;
+  vertical-align: middle;*/
+  letter-spacing: 5px;
+  font-size: 2rem;
+  color: grey;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.content-box-container{
+  text-align: -webkit-center;
+}
+
+.content-box{
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px grey;
+  padding: 5px 15px;
+}
+
+.server{
+  display: inline-flex;
+  position: relative;
+  left: 0.2em;
+}
+
+.fa-server{
+  z-index: 1;
+}
+
+.lightsContainer{
+  display: inline-grid;
+  position: relative;
+  right: 16px;
+  z-index: 0;
+}
+
+.lightsContainer div{
+  display: inline-flex;
+  position: relative;
+}
+
+#lights1{
+  top: 2px;
+}
+
+.redLight{
+position: relative;
+width: 6px;
+height: 6px;
+margin: 0px;
+background-color: red;
+border-radius: 50px;
+top: 4px;
+right: 1px;
+}
+
+.greenLight{
+  position: relative;
+  width: 6px;
+  height: 6px;
+  margin: 0px;
+  background-color: rgb(57, 233, 57);
+  border-radius: 50px;
+  top: 4px;
+}
+
+.rotation{
+  animation: rotation 6s infinite linear;
+}
+
+.rotationRev{
+  animation: rotationRev 5s infinite linear;
+  position: relative;
+  bottom: 16px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotationRev {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+.desktop{
+  display: inline-flex;
+  position: relative;
+  left: 1em;
+}
+
+.numberContainer{
+  position: relative;
+  right: 2.8em;
+}
+
+#number{
+  margin: 0px !important;
+  padding-top: 5.5px;
+}
+
+
+
+.data-section2{
+  background-color: white;
+  padding-bottom: 5em;
+  bottom: 15em;
+  position: relative;
+}
+
+.cdsSection3{
+  padding-top: 3em;
+}
+
+.cdsSection4{
+padding-top: 1.5em;
+  text-align: center;
+}
+
+.cdsSection4 h3{
+  color: red;
+}
+
+.cdsSection4 h4{
+  color: palevioletred;
+}
+
+.cdsSection4 i{
+  padding: 20px 0px;
+}
+
+.server, .wheels, .desktop{
+  padding: 20px 0px;
+}
+
+.content-box p:first-child{
+  margin: 0px;
+  font-weight: 700;
+}
