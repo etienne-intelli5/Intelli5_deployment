@@ -10,6 +10,12 @@ body {
   }
 }
 
+@media only screen  and (width: 768px){
+  .contain-services{
+    height: auto !important;
+  }
+}
+
 .contain-services{
   margin: 0px;
   padding: 0px;

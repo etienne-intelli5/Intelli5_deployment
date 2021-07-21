@@ -8,6 +8,7 @@ import { Expertise } from "./expertise";
 import { Services } from "./services";
 import { DataBanner } from "./data-banner";
 import { DataSolution } from "./data-solution";
+import { Partners } from "./partners";
 import { AboutBanner } from "./about-banner";
 import { Contact } from "./contact";
 import { Footer } from "./footer"
@@ -20,6 +21,7 @@ import { Footer } from "./footer"
     Services,
     DataBanner,
     DataSolution,
+    Partners,
     AboutBanner,
     Contact,
     Footer
@@ -29,6 +31,6 @@ import { Footer } from "./footer"
     NgbModule
   ],
   providers: [],
-  bootstrap: [Navbar, Header, Expertise, Services, DataBanner, DataSolution, AboutBanner, Contact, Footer]
+  bootstrap: [Navbar, Header, Expertise, Services, DataBanner, DataSolution, Partners, AboutBanner, Contact, Footer]
 })
 export class AppModule { }

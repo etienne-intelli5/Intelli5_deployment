@@ -9,9 +9,23 @@ body {
 
 nav {
   height: 10vh;
-  background: white;
-  box-shadow: 0px 2px 5px grey;
+  background-color: transparent;
   top: 0;
+}
+
+.navigation.scrolled {
+    background-color: #fff !important;
+    box-shadow: 0px 2px 5px grey;
+    transition: background-color 200ms linear;
+  }
+
+@media only screen and (max-width: 1225px){
+  nav{
+    background-color: white !important;
+    box-shadow: 0px 2px 5px grey;
+  }
+
+
 }
 
 .navbar-brand{
@@ -23,6 +37,13 @@ nav {
 
 img{
   height: 100%;
+  margin-left: 30%;
+}
+
+@media only screen and (max-width: 768px){
+  img{
+    margin-left: 5% !important;
+  }
 }
 
 .nav-links {
@@ -154,7 +175,7 @@ button {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1225px) {
   .line {
     width: 30px;
     height: 3px;

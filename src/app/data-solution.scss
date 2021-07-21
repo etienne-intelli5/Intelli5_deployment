@@ -1,5 +1,13 @@
 .data-container{
-  height: 60em;
+  height: auto;
+  position: relative;
+  bottom: 8em;
+}
+
+@media only screen and (min-width: 1000px){
+  .data-container{
+    bottom: 10em !important;
+  }
 }
 
 .data-section1{
@@ -10,7 +18,6 @@
   position: relative;
   padding-bottom: 8em;
   padding-top: 10em;
-  bottom: 15em;
 }
 
 .row{
@@ -20,6 +27,10 @@
 ._text{
   font-weight: 700;
   text-decoration: underline;
+}
+
+.content-box-container .col-md-4{
+  margin-bottom: 15px;
 }
 
 .cdsLine{
@@ -63,6 +74,7 @@ h2{
   border-radius: 10px;
   box-shadow: 0px 10px 10px grey;
   padding: 5px 15px;
+  height: 100%;
 }
 
 .server{
@@ -156,12 +168,8 @@ right: 1px;
   padding-top: 5.5px;
 }
 
-
-
 .data-section2{
   background-color: white;
-  padding-bottom: 5em;
-  bottom: 15em;
   position: relative;
 }
 

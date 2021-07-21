@@ -11,25 +11,41 @@ background-color: black;
 }
 
 .row{
-  height: 15vh;
+  height: 100%;
 }
 
 .credits-box{
-  position: absolute;
-  top: 40%;
-  left: 15%;
+  position: relative;
+  margin: auto;
+  display: table;
+  text-align: center;
+  height: 100%;
 }
 
 .credits{
   color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.outer-icon-box{
+  position: relative;
+  margin: auto;
+  display: table;
+  text-align: center;
+  height: 100%;
+}
+
+.inner-icon-box{
+  display: table-cell;
+  vertical-align: middle;
 }
 
 ul {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 ul li {
