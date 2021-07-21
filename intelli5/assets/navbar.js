@@ -9,3 +9,10 @@ function navBarOpen(){
       link.classList.toggle("fade");
     });
 }
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navigation");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});

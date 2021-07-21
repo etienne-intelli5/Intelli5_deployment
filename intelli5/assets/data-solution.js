@@ -1,6 +1,6 @@
 $(function(){
-    setInterval(function(){ FlashingLights(); ChangeNumber(); }, 1500);
-})
+  setInterval(function(){ FlashingLights(); ChangeNumber(); }, 1500);
+});
 
 function FlashingLights(){
 
