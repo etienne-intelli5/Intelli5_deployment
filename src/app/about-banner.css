@@ -1,7 +1,7 @@
 .aboutBanner{
   height: 75vh;
   background-color: teal;
-  background-image: url("../assets/testAbout1.jpg");
+  background-image: url("../assets/about_image.jpg");
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
