@@ -30,9 +30,9 @@
             ],
             "scripts": [
             "node_modules/jquery/dist/jquery.min.js",
-            "src/assets/navbar.js",
-            "src/assets/data-solution.js",
-            "src/assets/footer.js"
+            "src/assets/javascript/navbar.js",
+            "src/assets/javascript/data-solution.js",
+            "src/assets/javascript/footer.js"
             ]
           },
           "configurations": {
@@ -97,9 +97,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["src/assets/navbar.js",
-                        "src/assets/data-solution.js",
-                        "src/assets/footer.js"
+            "scripts": ["src/assets/javascript/navbar.js",
+                        "src/assets/javascript/data-solution.js",
+                        "src/assets/javascript/footer.js"
                         ]
           }
         },
