@@ -32,7 +32,8 @@
             "node_modules/jquery/dist/jquery.min.js",
             "src/assets/javascript/navbar.js",
             "src/assets/javascript/data-solution.js",
-            "src/assets/javascript/footer.js"
+            "src/assets/javascript/footer.js",
+            "src/assets/javascript/contact.js"
             ]
           },
           "configurations": {
@@ -99,7 +100,8 @@
             ],
             "scripts": ["src/assets/javascript/navbar.js",
                         "src/assets/javascript/data-solution.js",
-                        "src/assets/javascript/footer.js"
+                        "src/assets/javascript/footer.js",
+                        "src/assets/javascript/contact.js"
                         ]
           }
         },

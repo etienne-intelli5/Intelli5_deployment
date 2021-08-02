@@ -1,0 +1,60 @@
+.container{
+  position: relative;
+  bottom: 3em;
+}
+
+.partners_container{
+  background-color: azure;
+  padding-bottom: 3em;
+}
+
+.partners_text{
+  text-align: right;
+}
+
+.partners_images{
+  text-align: center;
+  height: 100%;
+}
+
+.partners_images .row{
+  height: 33.33333333%;
+}
+
+.col-4 , .col-6{
+  margin: auto;
+}
+
+.partners_text h1{
+  font-family: Oswald, sans-serif !important;
+  font-weight: 700;
+}
+
+.partners_text p{
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px){
+  .partners_text{
+    text-align: center !important;
+  }
+  .partners_container{
+    padding-bottom: 0px !important;
+  }
+  .partners_images{
+    height: 15em !important;
+  }
+}
+
+@media only screen and (width: 768px){
+  .partners_text{
+    text-align: right !important;
+  }
+  .partners_images{
+    height: 100% !important;
+  }
+  .partners_container{
+    padding-bottom: 3em !important;
+  }
+}

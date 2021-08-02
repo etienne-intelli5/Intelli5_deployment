@@ -1,3 +1,7 @@
+.helper{
+  background-color: azure;
+}
+
 .data-container{
   height: auto;
   position: relative;
@@ -170,6 +174,11 @@ right: 1px;
 
 .data-section2{
   background-color: white;
+  background-image: url("../assets/images/montreal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -183,11 +192,11 @@ padding-top: 1.5em;
 }
 
 .cdsSection4 h3{
-  color: red;
+  color: #87d3ff;
 }
 
 .cdsSection4 h4{
-  color: palevioletred;
+  color: #9cdbff;
 }
 
 .cdsSection4 i{
@@ -201,4 +210,22 @@ padding-top: 1.5em;
 .content-box p:first-child{
   margin: 0px;
   font-weight: 700;
+}
+
+.cdsSection4 p{
+  font-weight: 400;
+  color: white;
+}
+
+.overlay{
+  background-color: rgba(255, 255, 255, 0.247);
+  padding-bottom: 5em;
+}
+
+.data-section2 .cdsLine{
+  border-color: white !important;
+}
+
+.data-section2 h1{
+  color: white !important;
 }

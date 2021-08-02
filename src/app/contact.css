@@ -1,83 +1,110 @@
-.contactForm{
-  /*height: 40vh;
-  width: 100vw;
-  background-color: teal;*/
+.form-style-4{
+	width: 80%;
+	font-size: 16px;
+	background: #495C70;
+	padding: 30px 30px 15px 30px;
+	border: 5px solid #53687E;
+  margin: 3em auto;
 }
-
-.form-style-6{
-	font: 95% Arial, Helvetica, sans-serif;
-	max-width: 80%;
-	margin: 10px auto;
-	padding: 16px;
-	background: #F7F7F7;
-}
-.form-style-6 h1{
-	background: #43D1AF;
-	padding: 20px 0;
-	font-size: 140%;
-	font-weight: 300;
-	text-align: center;
-	color: #fff;
-	margin: -16px -16px 16px -16px;
-}
-.form-style-6 input[type="text"],
-.form-style-6 input[type="date"],
-.form-style-6 input[type="datetime"],
-.form-style-6 input[type="email"],
-.form-style-6 input[type="number"],
-.form-style-6 input[type="search"],
-.form-style-6 input[type="time"],
-.form-style-6 input[type="url"],
-.form-style-6 textarea,
-.form-style-6 select
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 input[type=tel],
+.form-style-4 textarea,
+.form-style-4 label
 {
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	color: #fff;
+
+}
+.form-style-4 label {
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-4 label > span{
+	float: left;
+	width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 input[type=tel]
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 100%;
 	outline: none;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	background: #fff;
-	margin-bottom: 4%;
-	border: 1px solid #ccc;
-	padding: 3%;
-	color: #555;
-	font: 95% Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
 }
-.form-style-6 input[type="text"]:focus,
-.form-style-6 input[type="date"]:focus,
-.form-style-6 input[type="datetime"]:focus,
-.form-style-6 input[type="email"]:focus,
-.form-style-6 input[type="number"]:focus,
-.form-style-6 input[type="search"]:focus,
-.form-style-6 input[type="time"]:focus,
-.form-style-6 input[type="url"]:focus,
-.form-style-6 textarea:focus,
-.form-style-6 select:focus
-{
-	box-shadow: 0 0 5px #43D1AF;
-	padding: 3%;
-	border: 1px solid #43D1AF;
+.form-style-4 textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 100%;
+	overflow: hidden;
+	resize:none;
+	height:20px;
 }
 
-.form-style-6 input[type="submit"],
-.form-style-6 input[type="button"]{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	padding: 3%;
-	background: #43D1AF;
-	border-bottom: 2px solid #30C29E;
-	border-top-style: none;
-	border-right-style: none;
-	border-left-style: none;
-	color: #fff;
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=tel]:focus
+{
+	border-bottom: 1px dashed #D9FFA9;
 }
-.form-style-6 input[type="submit"]:hover,
-.form-style-6 input[type="button"]:hover{
-	background: #2EBC99;
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #A8BACE;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: none;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+  display: block;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+  display: block;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }

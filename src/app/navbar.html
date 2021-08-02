@@ -1,6 +1,6 @@
 <nav class="navigation">
   <div class="navbar-brand">
-    <img src="../assets/images/INTELLI5HD_transparent_navbar.jpg" alt="">
+    <img src="../assets/images/INTELLI5HD_transparent_header.jpg" alt="navbar-brand">
   </div>
   <div class="hamburger" (click)="callNav()">
     <div class="line"></div>
@@ -8,16 +8,17 @@
     <div class="line"></div>
   </div>
   <ul class="nav-links">
-    <li><a href="#">OUR SERVICES</a></li>
-    <li><a href="#">DATA SOLUTIONS</a></li>
-    <li><a href="#">ABOUT US</a></li>
-    <li><a href="#">CONTACT US</a></li>
+    <li><a class="normal" (click)="toServices()" routerLinkActive="active">OUR SERVICES</a></li>
+    <li><a class="normal" (click)="toDataSolutions()" routerLinkActive="active">DATA SOLUTIONS</a></li>
+    <li><a class="normal" (click)="toAbout()" routerLinkActive="active">ABOUT US</a></li>
+    <li><a class="normal" (click)="toContact()" routerLinkActive="active">CONTACT US</a></li>
     <li><a href="#">
       <button class="careers">
         <span class="circle" aria-hidden="true">
           <span class="icon arrow"></span>
         </span>
         <span class="button-text">CAREERS</span>
-      </button></a></li>
+      </button>
+    </a></li>
   </ul>
 </nav>

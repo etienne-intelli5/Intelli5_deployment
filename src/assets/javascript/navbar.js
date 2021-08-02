@@ -6,7 +6,7 @@ function navBarOpen(){
     hamburger.classList.toggle("x");
     navLinks.classList.toggle("open");
     links.forEach(link => {
-      link.classList.toggle("fade");
+      link.classList.toggle("fading");
     });
 }
 
