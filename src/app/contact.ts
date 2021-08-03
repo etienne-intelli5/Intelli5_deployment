@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './contact.html',
   styleUrls: ['./contact.css'],
 })
-export class Contact {}
+export class Contact {
+title = 'My first AGM project';
+  lat = 45.502202;
+  lng = -73.569510;
+}

@@ -1,4 +1,6 @@
-<form class="form-style-4" action="https://formspree.io/f/mwkaroqe" method="post" id="contact-form">
+<agm-map [latitude]="lat" [longitude]="lng">
+  <agm-marker zoom="8" [latitude]="lat" [longitude]="lng"></agm-marker>
+  <form class="form-style-4" action="https://formspree.io/f/mwkaroqe" method="post" id="contact-form">
   <label for="field1">
     <span>Full Name</span>
     <input type="text" name="name" required="true" />
@@ -25,3 +27,34 @@
   </label>
   <div id="status"></div>
 </form>
+
+
+</agm-map>
+<!--
+<form class="form-style-4" action="https://formspree.io/f/mwkaroqe" method="post" id="contact-form">
+  <label for="field1">
+    <span>Full Name</span>
+    <input type="text" name="name" required="true" />
+  </label>
+  <label for="field2">
+    <span>Phone Number</span>
+    <input type="tel" name="phone" required="false" />
+  </label>
+  <label for="field3">
+    <span>Email Address</span>
+    <input type="email" name="email" required="true" />
+  </label>
+  <label for="field4">
+    <span>Short Subject</span>
+    <input type="text" name="subject" required="true" />
+  </label>
+  <label for="field5">
+    <span>Message to Us</span>
+    <textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+  </label>
+  <label>
+    <span></span>
+    <input type="submit" value="Send Message" />
+  </label>
+  <div id="status"></div>
+</form>-->

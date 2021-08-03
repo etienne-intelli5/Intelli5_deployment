@@ -108,3 +108,13 @@ background: #394D61;
     pointer-events: none;
   }
 }
+
+agm-map {
+  height: 80vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+form{
+  z-index: 2;
+}

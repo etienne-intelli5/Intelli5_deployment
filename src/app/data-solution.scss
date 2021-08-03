@@ -1,26 +1,26 @@
-.helper{
-  background-color: azure;
-}
-
 .data-container{
   height: auto;
   position: relative;
   bottom: 8em;
+  background-image: url("../assets/images/color_lines2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 1000px){
   .data-container{
-    bottom: 10em !important;
+    bottom: 12em !important;
   }
 }
 
 .data-section1{
-  background-image: url("../assets/images/color_lines.jpg");
+  //background-image: url("../assets/images/color lines2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-bottom: 8em;
   padding-top: 10em;
 }
 
@@ -40,7 +40,7 @@
 .cdsLine{
   width: 40%;
   margin: 0;
-  border-top: 5px solid grey;
+  border-top: 5px solid white;
   margin-bottom: 1em;
 }
 
@@ -58,7 +58,7 @@
   vertical-align: middle;*/
   letter-spacing: 5px;
   font-size: 2rem;
-  color: grey;
+  color: white;
   margin-bottom: 1em;
   text-transform: uppercase;
 }
@@ -173,12 +173,6 @@ right: 1px;
 }
 
 .data-section2{
-  background-color: white;
-  background-image: url("../assets/images/montreal.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   position: relative;
 }
 
@@ -187,16 +181,17 @@ right: 1px;
 }
 
 .cdsSection4{
-padding-top: 1.5em;
+  padding-top: 1.5em;
   text-align: center;
+  padding-bottom: 3em;
 }
 
 .cdsSection4 h3{
-  color: #87d3ff;
+  color: black;
 }
 
 .cdsSection4 h4{
-  color: #9cdbff;
+  color: white;
 }
 
 .cdsSection4 i{
@@ -217,10 +212,10 @@ padding-top: 1.5em;
   color: white;
 }
 
-.overlay{
+/*.overlay{
   background-color: rgba(255, 255, 255, 0.247);
   padding-bottom: 5em;
-}
+}*/
 
 .data-section2 .cdsLine{
   border-color: white !important;
