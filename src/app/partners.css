@@ -7,6 +7,10 @@
   .partners_container{
     bottom: 3em !important;
   }
+
+  #partner_img{
+    width: 100vw !important;
+  }
 }
 
 #partner_text{
@@ -19,7 +23,7 @@
 }
 
 #partner_img{
-  width: 90vw;
+  width: 50vw;
   margin: auto;
 }
 

@@ -9,9 +9,15 @@
   background-size: cover;
 }
 
+@media only screen and (min-width: 1440px){
+  .data-container{
+    bottom: 15em !important;
+  }
+}
+
 @media only screen and (min-width: 1000px){
   .data-container{
-    bottom: 12em !important;
+    bottom: 12em;
   }
 }
 
@@ -31,6 +37,10 @@
 ._text{
   font-weight: 700;
   text-decoration: underline;
+}
+
+.panelTitle{
+  margin: 0px;
 }
 
 .content-box-container .col-md-4{
@@ -77,7 +87,7 @@ h2{
   background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0px 10px 10px grey;
-  padding: 5px 15px;
+  padding: 15px 15px 5px;
   height: 100%;
 }
 
@@ -183,7 +193,7 @@ right: 1px;
 .cdsSection4{
   padding-top: 1.5em;
   text-align: center;
-  padding-bottom: 3em;
+  padding-bottom: 8em;
 }
 
 .cdsSection4 h3{
@@ -191,7 +201,7 @@ right: 1px;
 }
 
 .cdsSection4 h4{
-  color: white;
+  color: grey;
 }
 
 .cdsSection4 i{
@@ -209,7 +219,7 @@ right: 1px;
 
 .cdsSection4 p{
   font-weight: 400;
-  color: white;
+  color: black;
 }
 
 /*.overlay{
@@ -223,4 +233,8 @@ right: 1px;
 
 .data-section2 h1{
   color: white !important;
+}
+
+.cdsSection4 .col-lg-3{
+  margin-bottom: 2em;
 }

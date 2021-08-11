@@ -1,60 +1,88 @@
-<agm-map [latitude]="lat" [longitude]="lng">
-  <agm-marker zoom="8" [latitude]="lat" [longitude]="lng"></agm-marker>
-  <form class="form-style-4" action="https://formspree.io/f/mwkaroqe" method="post" id="contact-form">
-  <label for="field1">
-    <span>Full Name</span>
-    <input type="text" name="name" required="true" />
-  </label>
-  <label for="field2">
-    <span>Phone Number</span>
-    <input type="tel" name="phone" required="false" />
-  </label>
-  <label for="field3">
-    <span>Email Address</span>
-    <input type="email" name="email" required="true" />
-  </label>
-  <label for="field4">
-    <span>Short Subject</span>
-    <input type="text" name="subject" required="true" />
-  </label>
-  <label for="field5">
-    <span>Message to Us</span>
-    <textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
-  </label>
-  <label>
-    <span></span>
-    <input type="submit" value="Send Message" />
-  </label>
-  <div id="status"></div>
-</form>
+<div id="contactForm">
+  <div class="maps">
+    <agm-map [zoom]="zoom" [latitude]="centerLat" [longitude]="centerLng" [scrollwheel]="null" [disableDefaultUI]="true">
+      <agm-zoom-control></agm-zoom-control>
+      <agm-fullscreen-control></agm-fullscreen-control>
+      <agm-marker [latitude]="lat" [longitude]="lng" [label]="labelOptions" [markerClickable]="true"></agm-marker>
+    </agm-map>
+  </div>
+  <div class="formBox">
+    <form class="form-style-4" action="https://formspree.io/f/mwkaroqeToRemove" method="post" id="contact-form">
+      <h3>CONTACT US</h3>
+      <label for="field1">
+        <span>Full Name</span>
+        <input type="text" name="name" required="true" />
+      </label>
+      <label for="field2">
+        <span>Phone Number</span>
+        <input type="tel" name="phone" required="false" />
+      </label>
+      <label for="field3">
+        <span>Email Address</span>
+        <input type="email" name="email" required="true" />
+      </label>
+      <label for="field4">
+        <span>Short Subject</span>
+        <input type="text" name="subject" required="true" />
+      </label>
+      <label for="field5">
+        <span>Message to Us</span>
+        <textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+      </label>
+      <label id="submit">
+        <input type="submit" value="Send Message" />
+      </label>
+      <div id="status"></div>
+    </form>
+  </div>
+</div>
 
 
-</agm-map>
+
+
+
+
+
+
+
+
 <!--
-<form class="form-style-4" action="https://formspree.io/f/mwkaroqe" method="post" id="contact-form">
-  <label for="field1">
-    <span>Full Name</span>
-    <input type="text" name="name" required="true" />
-  </label>
-  <label for="field2">
-    <span>Phone Number</span>
-    <input type="tel" name="phone" required="false" />
-  </label>
-  <label for="field3">
-    <span>Email Address</span>
-    <input type="email" name="email" required="true" />
-  </label>
-  <label for="field4">
-    <span>Short Subject</span>
-    <input type="text" name="subject" required="true" />
-  </label>
-  <label for="field5">
-    <span>Message to Us</span>
-    <textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
-  </label>
-  <label>
-    <span></span>
-    <input type="submit" value="Send Message" />
-  </label>
-  <div id="status"></div>
-</form>-->
+
+<div class="row">
+  <div class="col-md-6">
+    <form class="form-style-4" action="https://formspree.io/f/mwkaroqe" method="post" id="contact-form">
+      <label for="field1">
+        <span>Full Name</span>
+        <input type="text" name="name" required="true" />
+      </label>
+      <label for="field2">
+        <span>Phone Number</span>
+        <input type="tel" name="phone" required="false" />
+      </label>
+      <label for="field3">
+        <span>Email Address</span>
+        <input type="email" name="email" required="true" />
+      </label>
+      <label for="field4">
+        <span>Short Subject</span>
+        <input type="text" name="subject" required="true" />
+      </label>
+      <label for="field5">
+        <span>Message to Us</span>
+        <textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+      </label>
+      <label>
+        <span></span>
+        <input type="submit" value="Send Message" />
+      </label>
+      <div id="status"></div>
+    </form>
+  </div>
+  <div class="col-md-6">
+    <div class="maps">
+      <agm-map [zoom]="zoom" [latitude]="lat" [longitude]="lng" [scrollwheel]="null">
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+      </agm-map>
+    </div>
+  </div>
+</div>-->

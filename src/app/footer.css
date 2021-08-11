@@ -5,7 +5,7 @@
 }
 
 .footer{
-height: 15vh;
+height: auto;
 width: 100vw;
 background-color: black;
 }
@@ -14,18 +14,33 @@ background-color: black;
   height: 100%;
 }
 
-.credits-box{
-  position: relative;
-  margin: auto;
-  display: table;
-  text-align: center;
-  height: 100%;
+img{
+  width: 40%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+p{
+  max-width: 90%;
+  font-family: play;
+  margin-bottom: 3px;
+}
+
+span{
+  padding-left: 6px;
+}
+
+.info{
+  color: white;
+  display: -webkit-box;
+}
+
+.info i{
+  padding-right: 10px;
 }
 
 .credits{
   color: white;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .outer-icon-box{
@@ -57,7 +72,6 @@ ul li a {
   height: 50px;
   background-color: #fff;
   text-align: center;
-  /*line-height: 50px;*/
   font-size: 30px;
   margin: 0 10px;
   display: block;
@@ -100,14 +114,6 @@ ul li:nth-child(1) a:before{
   background: #3b5999;
 }
 
-ul li:nth-child(2) a:before{
-  background: #55acee;
-}
-
-ul li:nth-child(3) a:before {
+ul li:nth-child(2) a:before {
   background: #0077b5;
-}
-
-ul li:nth-child(4) a:before {
-  background: #dd4b39;
 }
